@@ -28,22 +28,8 @@ const Footer = () => {
           </div>
         </div>
         
-        {/* Right: Email Subscribe */}
-        <div className="w-full md:w-[40%]">
-          <form className="flex bg-gray-800 rounded-lg overflow-hidden">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-grow p-3 bg-gray-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-400"
-            />
-            <button
-              type="submit"
-              className="bg-gradient-to-r from-green-400 to-blue-500 px-5 text-white font-medium hover:from-blue-500 hover:to-green-400 transition"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
+        
+       
       </div>
 
       {/* Bottom Note */}
